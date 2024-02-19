@@ -10,4 +10,5 @@
         "./Cargo.toml"
     ],
     "non_snake_case": "false",
+    "rust-analyzer.showUnlinkedFileNotification": false,
 }

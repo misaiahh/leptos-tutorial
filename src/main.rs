@@ -1,9 +1,6 @@
 use leptos::*;
-
-#[component]
-fn app() -> impl IntoView {
-    view! { <div>hello</div> }
-}
+mod three;
+use three::one::App;
 
 fn main() {
     _ = console_log::init_with_level(
