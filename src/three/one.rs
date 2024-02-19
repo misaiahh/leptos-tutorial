@@ -6,11 +6,7 @@ pub fn app() -> impl IntoView {
 
     view! {
         <button on:click=move |_| {
-            set_count(3);
-        }>
-
-            // on stable, this is move || count.get();
-            "Click me: " {count}
-        </button>
+            set_count.update(|n| *n += 1);
+        }>"Click me: " {count}</button>
     }
 }
