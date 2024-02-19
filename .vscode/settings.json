@@ -1,0 +1,13 @@
+{
+    "rust-analyzer.procMacro.ignored": {
+        "leptos_macro": [
+            // optional:
+            "component",
+            "server"
+        ],
+    },
+    "rust-analyzer.linkedProjects": [
+        "./Cargo.toml"
+    ],
+    "non_snake_case": "false",
+}
