@@ -1,6 +1,7 @@
 use leptos::*;
 mod three;
-use three::one::App;
+// use three::one::App;
+use three::two::App;
 
 fn main() {
     _ = console_log::init_with_level(
