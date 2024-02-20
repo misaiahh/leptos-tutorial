@@ -27,12 +27,13 @@ fn ProgressBar(
 #[component]
 pub fn App() -> impl IntoView {
     let (count, set_count) = create_signal(0);
-    let double_count = move || count() * 2;
+    let double_count =
+        Signal::derive(move || count() * 2);
     view! {
         <button on:click=move |_| {
             set_count.update(|n| *n += 1);
         }>"Click me"</button>
         <ProgressBar progress=count/>
-        <ProgressBar progress=Signal::derive(double_count)/>
+        <ProgressBar progress=double_count/>
     }
 }
