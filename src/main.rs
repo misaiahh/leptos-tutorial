@@ -1,7 +1,7 @@
 use leptos::*;
 mod part_one;
-// use three::one::App;
-use part_one::two::App;
+// use part_one::c_components_and_props::app;
+use crate::part_one::c_components_and_props::App;
 
 fn main() {
     _ = console_log::init_with_level(
