@@ -35,7 +35,7 @@ pub fn App() -> impl IntoView {
         <h2>"Conditional Logic"</h2>
         // You can do dynamic conditional if-then-else
         // logic in several ways
-        //
+        // 
         // a. An "if" expression in a function
         // This will simply re-render every time the value
         // changes, which makes it good for lightweight UI
@@ -81,6 +81,10 @@ pub fn App() -> impl IntoView {
                     // <pre> returns HtmlElement<Pre>
 
                     // <pre> returns HtmlElement<Pre>
+
+                    // <pre> returns HtmlElement<Pre>
+
+                    // <pre> returns HtmlElement<Pre>
                     // <p> returns HtmlElement<P>
                     // so we convert into a more generic type
                     <p>"Two"</p>
@@ -89,6 +93,28 @@ pub fn App() -> impl IntoView {
             }
             _ => {
                 view! {
+                    // <pre> returns HtmlElement<Pre>
+
+                    // <pre> returns HtmlElement<Pre>
+
+                    // <pre> returns HtmlElement<Pre>
+
+                    // <pre> returns HtmlElement<Pre>
+
+                    // <pre> returns HtmlElement<Pre>
+                    // <p> returns HtmlElement<P>
+                    // so we convert into a more generic type
+
+                    // <pre> returns HtmlElement<Pre>
+
+                    // <pre> returns HtmlElement<Pre>
+
+                    // <pre> returns HtmlElement<Pre>
+
+                    // <pre> returns HtmlElement<Pre>
+                    // <p> returns HtmlElement<P>
+                    // so we convert into a more generic type
+
                     // <pre> returns HtmlElement<Pre>
 
                     // <pre> returns HtmlElement<Pre>

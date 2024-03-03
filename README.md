@@ -8,3 +8,9 @@ To start the Leptos server, follow the steps below:
 
    ```shell
    trunk serve --open
+
+Format files with the bellow command
+
+   ```shell
+   leptosfmt ./**/*.rs
+
