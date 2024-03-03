@@ -1,10 +1,7 @@
 use leptos::*;
-mod part_one;
-// use part_one::c_components_and_props::app;
-// use crate::part_one::c_components_and_props::App;
-// use crate::part_one::e_iterating_over_more_complex_data::App;
-// use crate::part_one::f_forms_and_inputs::App;
-use crate::part_one::g_control_flow::App;
+mod part_1;
+
+use crate::part_1::chapter_3::control_flow::App;
 
 fn main() {
     _ = console_log::init_with_level(
