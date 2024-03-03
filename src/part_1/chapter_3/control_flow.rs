@@ -78,15 +78,6 @@ pub fn App() -> impl IntoView {
               view! {
                   // <pre> returns HtmlElement<Pre>
 
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
                   // <p> returns HtmlElement<P>
                   // so we convert into a more generic type
                   <p>"Two"</p>
@@ -97,55 +88,6 @@ pub fn App() -> impl IntoView {
               view! {
                   // <pre> returns HtmlElement<Pre>
 
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-                  // <p> returns HtmlElement<P>
-                  // so we convert into a more generic type
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-                  // <p> returns HtmlElement<P>
-                  // so we convert into a more generic type
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-                  // <p> returns HtmlElement<P>
-                  // so we convert into a more generic type
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-                  // <p> returns HtmlElement<P>
-                  // so we convert into a more generic type
-
-                  // <pre> returns HtmlElement<Pre>
-
-                  // <pre> returns HtmlElement<Pre>
-                  // <p> returns HtmlElement<P>
-                  // so we convert into a more generic type
-
-                  // <pre> returns HtmlElement<Pre>
                   // <p> returns HtmlElement<P>
                   // so we convert into a more generic type
 
