@@ -7,4 +7,5 @@ pub mod chapter_3 {
   pub mod forms_and_inputs;
   pub mod iterating_over_more_complex_data;
   pub mod parent_child_communication;
+  pub mod passing_children_to_components;
 }
